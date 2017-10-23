@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Valores históricos</title>
+</head>
+<body>
+
+{% if prices %}
+    <table>
+        <tr>
+            <th>Fecha</th>
+            <th>Precio UF</th>
+        </tr>
+        {% for price in prices %}
+            <tr>
+                <td>{{ price.date }}</td>
+                <td>{{ price.value }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+{% else %}
+    <h2>Aún no hay datos para mostrar.</h2>
+{% endif %}
+
+</body>
+</html>

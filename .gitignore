@@ -1,0 +1,14 @@
+# PyCharm
+.idea
+
+# Settings
+checkuf/settings.py
+
+# Python stuff
+*.pyc
+*.pye
+
+# DB
+db.sqlite3
+
+
