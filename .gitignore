@@ -11,4 +11,8 @@ checkuf/settings.py
 # DB
 db.sqlite3
 
+# logs
+*.log
+
+
 

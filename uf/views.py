@@ -8,7 +8,6 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from datetime import date
 
-
 # Create your views here.
 
 
