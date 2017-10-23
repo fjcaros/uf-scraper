@@ -1,6 +1,6 @@
 ## Description
 
-This is a simple app to fetch historical UF values from Banco Central de Chile. It works on BeautifulSoup, Selenium and PhantomJS.
+This is a simple Django app to fetch historical UF values from Banco Central de Chile. It works on BeautifulSoup, Selenium and PhantomJS.
 
 ## Installation
 
