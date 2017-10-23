@@ -2,7 +2,7 @@
 .idea
 
 # Settings
-checkuf/settings.py
+# checkuf/settings.py
 
 # Python stuff
 *.pyc
